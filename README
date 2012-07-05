@@ -1,0 +1,12 @@
+dlFavorite - jQuery Plugin
+==========================
+
+Easily add a "star" (Gmail like) favorite button, and optionally a callback and an AJAX destination  
+to make the appropiate changes.  
+
+
+Options:  
+                        imgStateDisabled:       star icon on disabled state  
+                        imgStateEnable:         star icon on enabled state  
+                        ajax:                   destination URL to process field's value  
+                        onChange:               callback executed on state change  
