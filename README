@@ -1,7 +1,7 @@
 dlFavorite - jQuery Plugin
 ==========================
 
-Easily toggles an checkbox/radio button into a "star" (Gmail like) favorite button, 
+Easily toggles a checkbox/radio button into a "star" (Gmail like) favorite button, 
 and optionally provide a callback and/or AJAX destination to make the appropiate changes.  
 
 
@@ -13,4 +13,8 @@ Options:
 
 
 Example:  
-                        
+                        $('input[type=checkbox]').dlFavorite({  
+                           imgStateDisabled: 'star_grey.png',  
+                           imgStateEnable: 'star.png',  
+                           ajax:'/ajax/setFavorite'
+                        });  
